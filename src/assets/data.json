@@ -1,0 +1,150 @@
+{
+  "name": "Zachary Broomfield",
+  "link": "https://github.com/ZachBroomfield",
+  "skills": [
+    {
+      "name": "TypeScript",
+      "examples": [
+        {
+          "title": "2D breadth-first path finding",
+          "description": [
+            "Editable 2D grid with the ability to place a start, end and barriers to create a maze.",
+            "Barrier positions can be randomised, with validations to ensure resulting maze is traversable.",
+            "Pathing to diagonally adjacent points can be enabled or disabled.",
+            "When running, generates a path one point at a time, then displays shortest path once found."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Path-Finding",
+          "exampleLink": "https://zachbroomfield.github.io/Path-Finding"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "examples": [
+        {
+          "title": "Grid based simple cellular automata.",
+          "description": [
+            "Creates a grid with an initial placement of randomised 'life' forms and food.",
+            "The life forms use a simple neural network combined with short range sensors to detect their local environment.",
+            "The life forms require energy from the food they can collect to survive and reproduce.",
+            "The offspring they produce receives a slightly mutated version of their own neural network."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Grid-Evolution",
+          "exampleLink": "https://zachbroomfield.github.io/Grid-Evolution"
+        },
+        {
+          "title": "Orbiting particles with simple collision handling.",
+          "description": [
+            "A small set of particles orbiting a central particle.",
+            "Each particle exerts a gravitation effect upon each other particle.",
+            "A simple, mostly elastic collision handling system mediates collisions.",
+            "Particles resting upon other particles in not properly handled."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Colliding-Orbits",
+          "exampleLink": "https://zachbroomfield.github.io/Colliding-Orbits"
+        },
+        {
+          "title": "CLI simulation of a robot moving in a grid.",
+          "description": [
+            "Using a command line, give commands to a robot.",
+            "The robot can rotate, move and give a report of it's current position and direction faced."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Robot-Grid"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript with p5 library",
+      "subheading": [
+        "The following simulations were created during <a href='https://www.kadenze.com/courses/the-nature-of-code-ii/info' target='_blank' class='underline'>The Nature of Code</a> course.",
+        "<a href='https://www.kadenze.com/certificates/verified/78URGAU2' target='_blank' class='underline'>Achieved</a> top 5% marks."
+      ],
+      "examples": [
+        {
+          "title": "Evolving orbits",
+          "description": [
+            "A set of particles with random initial conditions orbit a large, stationary particle.",
+            "The smaller particles are removed if they touch the centre particle, or leave the canvas.",
+            "When particles are removed, new particles are created from inherited genes selected using a fitness function.",
+            "The fitness function biases towards older 'parents' with circular orbits.",
+            "The population eventually tends towards circular orbits."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Evolving-Orbits",
+          "exampleLink": "https://zachbroomfield.github.io/Evolving-Orbits"
+        },
+        {
+          "title": "Fractal creator",
+          "description": [
+            "Creates and draws various fractal shapes using points placed upon the canvas.",
+            "Fractals can be modified with provided parameters.",
+            "Also provides several preset fractals to draw."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Fractal-Creator",
+          "exampleLink": "https://zachbroomfield.github.io/Fractal-Creator"
+        },
+        {
+          "title": "Steering forces",
+          "description": [
+            "The application of multiple simultaneous steering forces to produce flocking behaviours.",
+            "A 2D Perlin noise flow field that applies a set force in the indicated direction upon every particle.",
+            "The flocking behaviour is determined by alignment, cohesion and separation forces between particles.",
+            "Each force can be modified in real time to witness the effect upon the particles."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Steering-Forces",
+          "exampleLink": "https://zachbroomfield.github.io/Steering-Forces"
+        },
+        {
+          "title": "Attract and repel",
+          "description": [
+            "Initially particles repel each other and are attracted to the mouse when clicked.",
+            "Pressing space toggles this attraction and repulsion.",
+            "Up and down increase and decrease number of particles respectively."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Attract-Repel",
+          "exampleLink": "https://zachbroomfield.github.io/Attract-Repel"
+        },
+        {
+          "title": "Following target",
+          "description": [
+            "A particle that accelerates towards the target.",
+            "The target uses Perlin noise to dictate its position."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Follow-Target",
+          "exampleLink": "https://zachbroomfield.github.io/Follow-Target"
+        }
+      ]
+    },
+    {
+      "name": "Svelte with Tailwind CSS and daisyUI",
+      "examples": [
+        {
+          "title": "Portfolio webpage",
+          "description": [
+            "This webpage, created using Svelte.",
+            "Tailwind CSS along with daisyUI are utilised for visual design."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Portfolio"
+        }
+      ]
+    },
+    {
+      "name": "Ruby on Rails",
+      "examples": [
+        {
+          "title": "Rails website for logging storage items.",
+          "description": [
+            "An older Rails application designed for use as a hotel luggage storage system.",
+            "Incorporates multiple searching parameters for locating correct records.",
+            "Includes several database tables for storing information regarding:",
+            "• Current luggage details",
+            "• Prior luggage details",
+            "• Employees",
+            "• Administration users"
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/storage_app",
+          "exampleLink": "https://safe-savannah-84053.herokuapp.com"
+        }
+      ]
+    }
+  ]
+}
