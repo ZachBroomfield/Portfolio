@@ -6,7 +6,7 @@
       "name": "TypeScript",
       "examples": [
         {
-          "title": "2D breadth-first path finding",
+          "title": "2D breadth-first path finding.",
           "description": [
             "Editable 2D grid with the ability to place a start, end and barriers to create a maze.",
             "Barrier positions can be randomised, with validations to ensure resulting maze is traversable.",
@@ -15,6 +15,32 @@
           ],
           "codeLink": "https://github.com/ZachBroomfield/Path-Finding",
           "exampleLink": "https://zachbroomfield.github.io/Path-Finding"
+        }
+      ]
+    },
+    {
+      "name": "Svelte",
+      "examples": [
+        {
+          "title": "Pixel-art creator.",
+          "description": [
+            "Editable 2D grid representing pixels of an image.",
+            "Each pixel will show its colour, or a transparent representation.",
+            "Colour can be chosen using the sliders, or selected from an already existing pixel.",
+            "Pixels with different colours than selected can be locked, to prevent accidental changes.",
+            "Final image can be download as a PNG to preserve transparent pixels.",
+            "Tailwind CSS along with daisyUI are utilised for visual design of the UI."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Pixel-Art",
+          "exampleLink": "https://zachbroomfield.github.io/Pixel-Art"
+        },
+        {
+          "title": "Portfolio webpage.",
+          "description": [
+            "This webpage, created using Svelte.",
+            "Tailwind CSS along with daisyUI are utilised for visual design."
+          ],
+          "codeLink": "https://github.com/ZachBroomfield/Portfolio"
         }
       ]
     },
@@ -61,7 +87,7 @@
       ],
       "examples": [
         {
-          "title": "Evolving orbits",
+          "title": "Evolving orbits.",
           "description": [
             "A set of particles with random initial conditions orbit a large, stationary particle.",
             "The smaller particles are removed if they touch the centre particle, or leave the canvas.",
@@ -73,7 +99,7 @@
           "exampleLink": "https://zachbroomfield.github.io/Evolving-Orbits"
         },
         {
-          "title": "Fractal creator",
+          "title": "Fractal creator.",
           "description": [
             "Creates and draws various fractal shapes using points placed upon the canvas.",
             "Fractals can be modified with provided parameters.",
@@ -83,7 +109,7 @@
           "exampleLink": "https://zachbroomfield.github.io/Fractal-Creator"
         },
         {
-          "title": "Steering forces",
+          "title": "Steering forces.",
           "description": [
             "The application of multiple simultaneous steering forces to produce flocking behaviours.",
             "A 2D Perlin noise flow field that applies a set force in the indicated direction upon every particle.",
@@ -94,7 +120,7 @@
           "exampleLink": "https://zachbroomfield.github.io/Steering-Forces"
         },
         {
-          "title": "Attract and repel",
+          "title": "Attract and repel.",
           "description": [
             "Initially particles repel each other and are attracted to the mouse when clicked.",
             "Pressing space toggles this attraction and repulsion.",
@@ -104,26 +130,13 @@
           "exampleLink": "https://zachbroomfield.github.io/Attract-Repel"
         },
         {
-          "title": "Following target",
+          "title": "Following target.",
           "description": [
             "A particle that accelerates towards the target.",
             "The target uses Perlin noise to dictate its position."
           ],
           "codeLink": "https://github.com/ZachBroomfield/Follow-Target",
           "exampleLink": "https://zachbroomfield.github.io/Follow-Target"
-        }
-      ]
-    },
-    {
-      "name": "Svelte with Tailwind CSS and daisyUI",
-      "examples": [
-        {
-          "title": "Portfolio webpage",
-          "description": [
-            "This webpage, created using Svelte.",
-            "Tailwind CSS along with daisyUI are utilised for visual design."
-          ],
-          "codeLink": "https://github.com/ZachBroomfield/Portfolio"
         }
       ]
     },
